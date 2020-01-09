@@ -2443,6 +2443,27 @@ textarea.form-control:focus{outline:0 none;}
 	
 }
 
+@media (max-width: 500px) {
+
+	section#services {
+	    padding-top: 60px;
+	}
+
+button.navbar-toggle {
+    display: none;
+}
+
+.navbar-brand-centered.page-scroll {
+    margin: auto;
+}
+
+.col-lg-8.col-sm-12.text {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+}
+
 /************ max width 300px *************/
 @media (max-width: 300px) {
 	
